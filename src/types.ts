@@ -39,13 +39,12 @@ export namespace BrutalezI18n {
       ? Name | StringPlaceholders<Rest>
       : never
 
-  export type InterpolationValues<TMessage extends string> = [
-    StringPlaceholders<TMessage>,
-  ] extends [never]
-    ? Record<string, never> | undefined
-    : {
-        [K in StringPlaceholders<TMessage>]: Primitive
-      }
+  export type InterpolationValues<TMessage extends string> =
+    string extends TMessage
+      ? Record<string, Primitive> | undefined
+      : [StringPlaceholders<TMessage>] extends [never]
+        ? Record<string, never> | undefined
+        : { [K in StringPlaceholders<TMessage>]: Primitive }
 
   export type TranslationValues<
     TMessages extends Messages,
