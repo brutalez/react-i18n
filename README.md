@@ -279,6 +279,4 @@ Contributions, bug reports, and suggestions are welcome. Please open an issue or
 
 Before submitting a pull request, run the tests and TypeScript checks.
 
-## License
-
-MIT © [Alim Naufal](https://alimnfl.com)
+[Alim Naufal](https://alimnfl.com)
