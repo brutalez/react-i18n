@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A type-safe internationalization library for React",
   "license": "SEE LICENSE IN LICENSE",
+  "publishConfig": {
+    "access": "public"
+  },
   "author": {
     "name": "Alim Naufal",
     "email": "alimnfll@gmail.com",
