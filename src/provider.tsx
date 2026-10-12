@@ -12,7 +12,13 @@ export function I18nProvider({ i18n, children }: I18nProviderProps) {
   return <I18nContext.Provider value={i18n}>{children}</I18nContext.Provider>
 }
 
-export function useTranslation() {
+export interface UseTranslationResult {
+  t: BrutalezI18n.RegisteredI18n["t"]
+  locale: BrutalezI18n.RegisteredI18n["locale"]
+  setLocale: BrutalezI18n.RegisteredI18n["setLocale"]
+}
+
+export function useTranslation(): UseTranslationResult {
   const i18n = useContext(I18nContext)
   if (!i18n)
     throw new Error("useTranslation must be used inside <I18nProvider>")
