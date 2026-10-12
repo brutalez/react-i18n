@@ -27,13 +27,15 @@ Subject to the conditions of this License, the Author grants you a worldwide, no
 
 You may not, without prior written permission from the Author:
 
-- Sell, license, sublicense, or otherwise commercially distribute the Software as a standalone product.
-- Republish, rebrand, or redistribute the Software, or a substantially similar derivative of it, as a separate library, package, or framework.
-- Offer the Software itself as a paid download, hosted code package, or equivalent standalone product.
+- Sell, license, sublicense, or redistribute the Software, or a substantial portion of its original code, as a standalone product.
+- Republish or rebrand the Software as your own original library, package, or framework.
+- Offer the Software itself as a paid download or standalone product.
 - Remove or alter copyright notices or attribution included in the Software.
-- Claim authorship or ownership of the Author's original work.
+- Falsely claim authorship or ownership of the Author's original code.
 
-These restrictions apply to the Software itself and its standalone redistribution. They do not prohibit charging for End-User Applications that use the Software as a component.
+These restrictions do not prohibit using the Software in personal or commercial applications, websites, or SaaS products, including products offered for a fee.
+
+Independent implementations of similar functionality are not prohibited merely because they serve the same purpose, provided they do not improperly copy protected portions of the Software.
 
 ## 4. Contributions
 
