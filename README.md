@@ -1,4 +1,4 @@
-# @brutalez/i18n-react
+# @brutalez/react-i18n
 
 A type-safe internationalization library that makes experimenting with and implementing i18n in React projects easier.
 
@@ -16,7 +16,7 @@ A type-safe internationalization library that makes experimenting with and imple
 ## Installation
 
 ```bash
-pnpm add @brutalez/i18n-react
+pnpm add @brutalez/react-i18n
 ```
 
 The library requires React 18 or later.
@@ -29,7 +29,7 @@ Create your translation messages in a TypeScript file.
 
 ```ts
 // src/i18n.ts
-import { createI18n } from "@brutalez/i18n-react"
+import { createI18n } from "@brutalez/react-i18n"
 
 export const messages = {
   en: {
@@ -66,7 +66,7 @@ Wrap your application with `I18nProvider`.
 ```tsx
 // src/main.tsx
 import { createRoot } from "react-dom/client"
-import { I18nProvider } from "@brutalez/i18n-react"
+import { I18nProvider } from "@brutalez/react-i18n"
 import { App } from "./App"
 import { i18n } from "./i18n"
 
@@ -83,7 +83,7 @@ Use the `useTranslation` hook inside your React components.
 
 ```tsx
 // src/App.tsx
-import { useTranslation } from "@brutalez/i18n-react"
+import { useTranslation } from "@brutalez/react-i18n"
 
 export function App() {
   const { t, locale, setLocale } = useTranslation()
@@ -256,8 +256,8 @@ This callback can help identify incomplete translations during development.
 Clone the repository and install dependencies.
 
 ```bash
-git clone https://github.com/brutalez/i18n-react.git
-cd i18n-react
+git clone https://github.com/brutalez/react-i18n.git
+cd react-i18n
 pnpm install
 ```
 
