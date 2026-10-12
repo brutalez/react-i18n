@@ -1,5 +1,7 @@
 import { I18nProvider, useTranslation } from "../../src"
 import { i18n } from "../../tests/fixtures/i18n"
+import { StrictMode } from "react"
+import { createRoot } from "react-dom/client"
 
 function App() {
   const { t, locale, setLocale } = useTranslation()
@@ -22,3 +24,9 @@ export function TestApp() {
     </I18nProvider>
   )
 }
+
+createRoot(document.getElementById("root")!).render(
+  <StrictMode>
+    <TestApp />
+  </StrictMode>,
+)
