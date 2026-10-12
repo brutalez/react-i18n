@@ -1,21 +1,66 @@
-MIT License
+# Brutalez Source-Available License (BSAL) 1.0
 
 Copyright (c) 2026 Brutalez | Alim Naufal
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 1. Definitions
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+**"Software"** means the source code, compiled code, documentation, and associated materials distributed under this License.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+**"Author"** means Alim Naufal and Brutalez, the original copyright holder of the Software.
+
+**"End-User Application"** means an application, website, service, or other software product that incorporates or uses the Software as a component, rather than primarily distributing the Software itself.
+
+**"Standalone Distribution"** means distributing, sublicensing, selling, or otherwise making the Software available as a separate library, package, framework, or substantially equivalent derivative product.
+
+## 2. Grant of Rights
+
+Subject to the conditions of this License, the Author grants you a worldwide, non-exclusive, royalty-free, non-transferable license to:
+
+- View and study the Software's source code.
+- Use the Software for personal, educational, research, and commercial purposes.
+- Reproduce and modify the Software for your own permitted use.
+- Incorporate the Software into personal or commercial End-User Applications.
+- Distribute End-User Applications that incorporate the Software, including for commercial purposes.
+- Submit contributions, bug fixes, and improvements to the original project.
+
+## 3. Restrictions
+
+You may not, without prior written permission from the Author:
+
+- Sell, license, sublicense, or redistribute the Software, or a substantial portion of its original code, as a standalone product.
+- Republish or rebrand the Software as your own original library, package, or framework.
+- Offer the Software itself as a paid download or standalone product.
+- Remove or alter copyright notices or attribution included in the Software.
+- Falsely claim authorship or ownership of the Author's original code.
+
+These restrictions do not prohibit using the Software in personal or commercial applications, websites, or SaaS products, including products offered for a fee.
+
+Independent implementations of similar functionality are not prohibited merely because they serve the same purpose, provided they do not improperly copy protected portions of the Software.
+
+## 4. Contributions
+
+Contributions to the original project are welcome.
+
+Unless otherwise agreed in writing, contributors retain copyright in their original contributions and grant the Author permission to use, reproduce, modify, distribute, and sublicense those contributions as part of the project under this License.
+
+Submitting a contribution does not transfer ownership of the contributor's copyright to the Author.
+
+## 5. Attribution
+
+You must retain applicable copyright notices and this License in copies of the Software that you are permitted to make or distribute under this License.
+
+## 6. Termination
+
+Any rights granted under this License terminate automatically if you materially violate its terms. Rights may be reinstated if the violation is appropriately remedied and reinstatement is permitted by applicable law or confirmed in writing by the Author.
+
+## 7. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR ITS USE, EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW.
+
+## 8. Permissions and Contact
+
+For permissions beyond those granted by this License, including standalone redistribution, resale, or commercial licensing of the Software itself, please contact the Author.
+
+https://alimnfl.com
