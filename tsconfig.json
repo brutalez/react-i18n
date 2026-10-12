@@ -19,12 +19,13 @@
       "@testing-library/jest-dom"
     ]
   },
-  "include": [
-    "src",
-    "playwright",
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "coverage",
     "tests",
-    "playwright.config.ts",
+    "playwright",
     "global.d.ts"
-  ],
-  "exclude": ["node_modules", "dist", "coverage"]
+  ]
 }
